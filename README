@@ -1,6 +1,13 @@
 ##EJERCICIO GITFLOW
-###Manuel Sanchez Sillero
-###Alvaro Serrano Luna
-###Carmen Montalvo luque
-###Pedro Lara torres
-###Eduardo Rodríguez Rosa
+###- Lider de proyecto: Carmen Montalvo Luque
+###- Desarrollador de estructura HTML: Pedro Lara Torres
+###- Diseñador CSS: Álvaro Serrano Luna
+###- Programador JavaScript: Eduardo Rodriguez Rosa
+###- Tester: Manuel Sánchez Sillero
+
+En orden, Pedro ha realizado el archivo HTML base del trabajo mientras Álvaro creaba un archivo de CSS para darle formato.
+Eduardo se ha encargado de crear un archivo en JavaScript para darle funcionalidad. 
+Los tres han subido sus archivos a sus ramas correspondientes.
+Manuel en funciones de tester ha comprobado los archivos y ha visto que no se habían enlazado correctamente al HTML, de manera que ha modificado el mismo.
+Carmen como lider del proyecto se ha encargado de gestionar el trabajo de cada persona y dar permisos para las subidas. Además se ha encargado de comprobar que todo 
+funcionase adecuadamente, de realizar un documento con capturas del proceso y de hacer la subida final a la rama principal.
