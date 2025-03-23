@@ -1,0 +1,78 @@
+.music-links {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.music-links a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.music-links a:hover {
+    transform: scale(1.2);
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+.music-links .spotify {
+    background-color: #1DB954;
+}
+
+.music-links .apple {
+    background-color: #000;
+}
+
+.music-links .youtube {
+    background-color: #FF0000;
+}
+
+.music-links .amazon {
+    background-color: #FF9900;
+}
+
+.music-links .tidal {
+    background-color: #002233;
+}
+
+.music-links .spotify:hover {
+    background-color: #1ed760;
+}
+
+.music-links .apple:hover {
+    background-color: #333;
+}
+
+.music-links .youtube:hover {
+    background-color: #cc0000;
+}
+
+.music-links .amazon:hover {
+    background-color: #e68a00;
+}
+
+.music-links .tidal:hover {
+    background-color: #003366;
+}
+
+@media (max-width: 768px) {
+    .music-links {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .music-links a {
+        width: 50px;
+        height: 50px;
+        font-size: 1.5rem;
+    }
+}
